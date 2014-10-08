@@ -89,6 +89,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="onSignUpButton:" destination="rlD-8k-VTC" eventType="touchUpInside" id="fnF-gN-pvR"/>
                                     <segue destination="5aU-Eb-YOl" kind="modal" id="JVF-wd-LZa"/>
                                 </connections>
                             </button>
@@ -100,6 +101,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="onSignInButton:" destination="rlD-8k-VTC" eventType="touchUpInside" id="tHO-Ev-f7i"/>
                                     <segue destination="2Kr-zB-Q5I" kind="modal" id="8Ib-wG-CFI"/>
                                 </connections>
                             </button>
@@ -115,7 +117,7 @@
         <!--View Controller-->
         <scene sceneID="tGA-Lr-rNA">
             <objects>
-                <viewController id="8ps-qO-WDM" customClass="ViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8ps-qO-WDM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5mX-2x-OsD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -132,7 +134,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="frg-VL-7eL" kind="push" id="cCU-Or-rL0"/>
+                                    <segue destination="frg-VL-7eL" kind="push" identifier="signInSegue" id="cCU-Or-rL0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hzP-cA-5Sv">
@@ -155,10 +157,10 @@
             </objects>
             <point key="canvasLocation" x="2693" y="1093"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In Root Controller-->
         <scene sceneID="kGY-LL-F6q">
             <objects>
-                <viewController id="frg-VL-7eL" customClass="ViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="frg-VL-7eL" customClass="SignInRootController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N4f-KA-U5D">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -174,6 +176,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="frg-VL-7eL" eventType="touchUpInside" id="xEl-o7-Lho"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -187,7 +192,7 @@
         <!--View Controller-->
         <scene sceneID="qL7-Dr-sOs">
             <objects>
-                <viewController id="KaU-hy-ZMg" customClass="ViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KaU-hy-ZMg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="45P-3Y-q77">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -204,7 +209,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3qN-to-nbu" kind="push" id="cG7-WE-27l"/>
+                                    <segue destination="3qN-to-nbu" kind="push" identifier="createAccountSegue" id="cG7-WE-27l"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5Qw-RV-IyB">
@@ -265,10 +270,10 @@
             </objects>
             <point key="canvasLocation" x="2161" y="359"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account Root View Controller-->
         <scene sceneID="gBC-T8-lKt">
             <objects>
-                <viewController id="3qN-to-nbu" customClass="ViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3qN-to-nbu" customClass="CreateAccountRootViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pSC-as-2Ve">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -284,6 +289,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="jk6-Nt-d4D"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -309,7 +317,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="cG7-WE-27l"/>
         <segue reference="cCU-Or-rL0"/>
+        <segue reference="cG7-WE-27l"/>
     </inferredMetricsTieBreakers>
 </document>
