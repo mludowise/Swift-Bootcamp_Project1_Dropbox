@@ -13,7 +13,7 @@ class SignInRootController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+//        performSegueWithIdentifier("signInSegue", sender: self)
     }
     
     @IBAction func onWelcomeButton(sender: AnyObject) {

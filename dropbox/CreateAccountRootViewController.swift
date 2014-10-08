@@ -13,7 +13,7 @@ class CreateAccountRootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+//        performSegueWithIdentifier("createAccountSegue", sender: self)
     }
 
     @IBAction func onWelcomeButton(sender: AnyObject) {

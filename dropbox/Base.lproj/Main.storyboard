@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -126,10 +125,10 @@
             </objects>
             <point key="canvasLocation" x="1666" y="359"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In Root Controller-->
         <scene sceneID="tGA-Lr-rNA">
             <objects>
-                <viewController id="8ps-qO-WDM" sceneMemberID="viewController">
+                <viewController id="8ps-qO-WDM" customClass="SignInRootController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5mX-2x-OsD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -213,10 +212,10 @@
             </objects>
             <point key="canvasLocation" x="3162" y="1093"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account Root View Controller-->
         <scene sceneID="qL7-Dr-sOs">
             <objects>
-                <viewController id="KaU-hy-ZMg" sceneMemberID="viewController">
+                <viewController id="KaU-hy-ZMg" customClass="CreateAccountRootViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="45P-3Y-q77">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -660,9 +659,9 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="rKX-Je-s3i"/>
-        <segue reference="Zb6-9x-LBu"/>
-        <segue reference="cG7-WE-27l"/>
-        <segue reference="S2a-aN-JG3"/>
+        <segue reference="nnE-hu-Hw8"/>
+        <segue reference="cCU-Or-rL0"/>
         <segue reference="oFH-SK-PuE"/>
+        <segue reference="S2a-aN-JG3"/>
     </inferredMetricsTieBreakers>
 </document>
