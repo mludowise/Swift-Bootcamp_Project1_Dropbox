@@ -12,11 +12,11 @@ class CreateAccountRootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-//        performSegueWithIdentifier("createAccountSegue", sender: self)
+        performSegueWithIdentifier("createAccountSegue", sender: self)
     }
 
-    @IBAction func onWelcomeButton(sender: AnyObject) {
-        navigationController?.popToRootViewControllerAnimated(true)
-    }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }    
 }

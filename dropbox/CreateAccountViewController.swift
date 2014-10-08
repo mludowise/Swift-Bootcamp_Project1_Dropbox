@@ -1,5 +1,5 @@
 //
-//  SignInRootController.swift
+//  CreateAccountViewController.swift
 //  dropbox
 //
 //  Created by Mel Ludowise on 10/8/14.
@@ -8,15 +8,21 @@
 
 import UIKit
 
-class SignInRootController: UIViewController {
+class CreateAccountViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        performSegueWithIdentifier("signInSegue", sender: self)
+
+        // Do any additional setup after loading the view.
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func onWelcomeButton(sender: AnyObject) {
+        navigationController?.popToRootViewControllerAnimated(true)
+    }
+
 }
