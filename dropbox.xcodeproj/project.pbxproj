@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E61D99CD19E525D000E156F8 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D99CC19E525D000E156F8 /* CreateAccountRootViewController.swift */; };
 		E61D99CF19E5260D00E156F8 /* SignInRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D99CE19E5260D00E156F8 /* SignInRootController.swift */; };
+		E61D99D119E5336A00E156F8 /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D99D019E5336A00E156F8 /* TermsOfServiceViewController.swift */; };
 		E6B25A1819E51295007AAC7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B25A1719E51295007AAC7B /* AppDelegate.swift */; };
 		E6B25A1A19E51295007AAC7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B25A1919E51295007AAC7B /* ViewController.swift */; };
 		E6B25A1D19E51295007AAC7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B25A1B19E51295007AAC7B /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		E61D99CC19E525D000E156F8 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		E61D99CE19E5260D00E156F8 /* SignInRootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootController.swift; sourceTree = "<group>"; };
+		E61D99D019E5336A00E156F8 /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
 		E6B25A1219E51295007AAC7B /* dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B25A1619E51295007AAC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6B25A1719E51295007AAC7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				E6B25A1719E51295007AAC7B /* AppDelegate.swift */,
 				E6B25A1919E51295007AAC7B /* ViewController.swift */,
 				E6B25A1B19E51295007AAC7B /* Main.storyboard */,
+				E61D99D019E5336A00E156F8 /* TermsOfServiceViewController.swift */,
 				E61D99CC19E525D000E156F8 /* CreateAccountRootViewController.swift */,
 				E61D99CE19E5260D00E156F8 /* SignInRootController.swift */,
 				E6B25A1E19E51295007AAC7B /* Images.xcassets */,
@@ -223,6 +226,7 @@
 				E61D99CF19E5260D00E156F8 /* SignInRootController.swift in Sources */,
 				E6B25A1A19E51295007AAC7B /* ViewController.swift in Sources */,
 				E6B25A1819E51295007AAC7B /* AppDelegate.swift in Sources */,
+				E61D99D119E5336A00E156F8 /* TermsOfServiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

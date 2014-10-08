@@ -192,6 +192,18 @@
                                     <action selector="onWelcomeButton:" destination="frg-VL-7eL" eventType="touchUpInside" id="xEl-o7-Lho"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gQm-u0-Lta">
+                                <rect key="frame" x="0.0" y="98" width="320" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="ZGo-mc-6if"/>
+                                    <segue destination="qyZ-hn-Vzo" kind="modal" animates="NO" id="S2a-aN-JG3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -438,7 +450,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bXd-qT-fnE">
-                                <rect key="frame" x="0.0" y="78" width="320" height="176"/>
+                                <rect key="frame" x="249" y="20" width="71" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <state key="normal">
@@ -446,6 +458,19 @@
                                 </state>
                                 <connections>
                                     <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="K6W-dK-Btp"/>
+                                    <segue destination="1Ha-xR-eOe" kind="modal" animates="NO" id="X7v-AM-XH9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xDx-Pk-Lrg">
+                                <rect key="frame" x="242" y="523" width="77" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="BSz-fp-6o8"/>
+                                    <segue destination="1Ha-xR-eOe" kind="modal" animates="NO" id="oFH-SK-PuE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -457,15 +482,173 @@
             </objects>
             <point key="canvasLocation" x="4955" y="359"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="bJk-mj-6xQ">
+            <objects>
+                <viewController id="qyZ-hn-Vzo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jWz-zZ-xmK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign_in2" id="B0s-Q1-0KV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xgW-fO-Ma9">
+                                <rect key="frame" x="246" y="20" width="74" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="uxm-TE-Eci"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="STz-eM-1jv">
+                                <rect key="frame" x="240" y="523" width="80" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="es5-4a-xKU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HAh-Zu-cDS">
+                                <rect key="frame" x="70" y="196" width="181" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="2Ft-Fz-kDv"/>
+                                    <segue destination="mhz-vR-AwN" kind="modal" animates="NO" id="MnM-eH-p0P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xli-qN-lw3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a0e-rM-1o7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3612" y="1093"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sbL-Nf-89D">
+            <objects>
+                <viewController id="mhz-vR-AwN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gwt-jg-4aH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign_in3" id="ozR-jd-YY2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PKh-WN-jPy">
+                                <rect key="frame" x="7" y="516" width="306" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="yIj-Dg-4Q7"/>
+                                    <segue destination="qyZ-hn-Vzo" kind="modal" animates="NO" id="iTR-7x-vxK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="e7B-9m-Kkl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wa6-su-JQl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4048" y="1093"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aiM-Bk-zpA">
+            <objects>
+                <viewController id="1Ha-xR-eOe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R8L-3v-BB4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create5" id="S50-3u-ga0">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Vg-Qm-qOT">
+                                <rect key="frame" x="7" y="516" width="306" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="v2M-hI-WRg"/>
+                                    <segue destination="4rt-lt-Wee" kind="modal" animates="NO" id="X0w-nE-Qza"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hFX-4j-egn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ifz-nj-CSG" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5411" y="359"/>
+        </scene>
+        <!--Terms Of Service View Controller-->
+        <scene sceneID="ksv-je-P0Q">
+            <objects>
+                <viewController id="4rt-lt-Wee" customClass="TermsOfServiceViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XWh-Xo-ku7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="terms" id="0gM-or-ZiM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cnf-tO-QMk">
+                                <rect key="frame" x="256" y="20" width="64" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onDoneButton:" destination="4rt-lt-Wee" eventType="touchUpInside" id="95N-0B-sA7"/>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="8yo-CP-C0P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5BG-ef-xiI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="odu-BT-68q" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5845" y="359"/>
+        </scene>
     </scenes>
     <resources>
         <image name="create1" width="320" height="568"/>
         <image name="create2" width="320" height="568"/>
         <image name="create3" width="320" height="568"/>
         <image name="create4" width="320" height="568"/>
+        <image name="create5" width="320" height="568"/>
         <image name="create_account" width="320" height="568"/>
         <image name="logged_out" width="320" height="568"/>
         <image name="sign_in1" width="320" height="568"/>
+        <image name="sign_in2" width="320" height="568"/>
+        <image name="sign_in3" width="320" height="568"/>
+        <image name="terms" width="320" height="568"/>
         <image name="welcome1" width="320" height="568"/>
         <image name="welcome2" width="320" height="568"/>
         <image name="welcome3" width="320" height="568"/>
@@ -477,7 +660,9 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="rKX-Je-s3i"/>
-        <segue reference="cCU-Or-rL0"/>
+        <segue reference="Zb6-9x-LBu"/>
         <segue reference="cG7-WE-27l"/>
+        <segue reference="S2a-aN-JG3"/>
+        <segue reference="oFH-SK-PuE"/>
     </inferredMetricsTieBreakers>
 </document>
