@@ -338,6 +338,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CuM-ey-ANq">
+                                <rect key="frame" x="0.0" y="78" width="320" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="Gzq-Ja-mY2"/>
+                                    <segue destination="GTJ-NX-pVQ" kind="modal" animates="NO" id="hog-qj-LnZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -347,9 +359,110 @@
             </objects>
             <point key="canvasLocation" x="3612" y="359"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="bTY-1F-MKL">
+            <objects>
+                <viewController id="GTJ-NX-pVQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Bd-rn-hzf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create2" id="qeC-Xh-SlX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JtW-WN-geu">
+                                <rect key="frame" x="0.0" y="78" width="320" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="GN7-jW-EV4"/>
+                                    <segue destination="f4e-cw-rQg" kind="modal" animates="NO" id="oVA-pe-BcF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="j2G-qk-0e6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qmm-ZJ-PWx" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4048" y="359"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CY8-4t-tQ3">
+            <objects>
+                <viewController id="f4e-cw-rQg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b5m-NL-BDB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create3" id="hL9-ah-a0g">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PYK-1A-hBr">
+                                <rect key="frame" x="0.0" y="78" width="320" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="INk-cN-5yf"/>
+                                    <segue destination="gwo-yM-JRU" kind="modal" animates="NO" id="fFv-qd-Ldw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LT7-E5-0Ma"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YJi-CZ-hK1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4497" y="359"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qwc-zP-5Hn">
+            <objects>
+                <viewController id="gwo-yM-JRU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lVw-bW-e5M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create4" id="yO5-Ua-gvW">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bXd-qT-fnE">
+                                <rect key="frame" x="0.0" y="78" width="320" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="K6W-dK-Btp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hGP-8x-1iG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ip-6T-V59" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4955" y="359"/>
+        </scene>
     </scenes>
     <resources>
         <image name="create1" width="320" height="568"/>
+        <image name="create2" width="320" height="568"/>
+        <image name="create3" width="320" height="568"/>
+        <image name="create4" width="320" height="568"/>
         <image name="create_account" width="320" height="568"/>
         <image name="logged_out" width="320" height="568"/>
         <image name="sign_in1" width="320" height="568"/>
