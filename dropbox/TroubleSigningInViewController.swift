@@ -1,5 +1,5 @@
 //
-//  TermsOfServiceViewController.swift
+//  TroubleSigningInViewController.swift
 //  dropbox
 //
 //  Created by Mel Ludowise on 10/8/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TermsOfServiceViewController: UIViewController {
+class TroubleSigningInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class TermsOfServiceViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onDoneButton(sender: AnyObject) {
+    @IBAction func onCancelButton(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: {})
     }
 }
