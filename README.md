@@ -1,4 +1,4 @@
-# Dropbox Click-through Prototype
+# Dropbox Click-Through Prototype
 
 Description...
 
