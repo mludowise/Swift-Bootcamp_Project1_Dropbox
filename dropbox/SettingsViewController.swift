@@ -11,10 +11,11 @@ import UIKit
 class SettingsViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var backgroundImage: UIImageView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        scrollView.contentSize = CGSize(width: 320, height: 722)
+        scrollView.contentSize = CGSize(width: 320, height: 772) // Add 50px to accomodate for height of tabs
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +23,7 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onSignOutButton(sender: AnyObject) {
+        self.navigationController?.popToRootViewControllerAnimated(true)
+    }
 }

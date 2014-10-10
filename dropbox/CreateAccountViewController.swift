@@ -22,6 +22,9 @@ class CreateAccountViewController: UIViewController {
     }
     
     @IBAction func onWelcomeButton(sender: AnyObject) {
-        navigationController?.popToRootViewControllerAnimated(true)
+        dismissViewControllerAnimated(true, completion: { () -> Void in
+            self.navigationController?.popToRootViewControllerAnimated(true)
+            return Void()
+        })
     }
 }
