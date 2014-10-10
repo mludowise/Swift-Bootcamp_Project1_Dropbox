@@ -200,7 +200,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="qyZ-hn-Vzo" kind="modal" animates="NO" id="S2a-aN-JG3"/>
+                                    <action selector="onNextScreen:" destination="frg-VL-7eL" eventType="touchUpInside" id="gml-6X-cuh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fn0-uv-6k9">
@@ -211,13 +211,53 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="qyZ-hn-Vzo" kind="modal" animates="NO" id="Pg8-cm-yDs"/>
+                                    <action selector="onNextScreen:" destination="frg-VL-7eL" eventType="touchUpInside" id="YlD-Sw-pbf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HAh-Zu-cDS">
+                                <rect key="frame" x="70" y="195" width="181" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mhz-vR-AwN" kind="modal" id="Vz1-7N-HLl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xgW-fO-Ma9">
+                                <rect key="frame" x="246" y="20" width="74" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.62745098040000002" blue="0.17254901959999999" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="s8n-Tn-IhK" kind="modal" id="UJQ-uc-tZb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="STz-eM-1jv">
+                                <rect key="frame" x="240" y="523" width="80" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.62745098040000002" blue="0.17254901959999999" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="s8n-Tn-IhK" kind="modal" id="w0I-oh-O3n"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="exA-qh-xHt"/>
+                    <connections>
+                        <outlet property="backgroundImage" destination="D5n-kJ-MXb" id="Ufc-xb-JRq"/>
+                        <outlet property="formButton" destination="gQm-u0-Lta" id="pOS-Fd-tZq"/>
+                        <outlet property="keyboardButton" destination="fn0-uv-6k9" id="cDb-3v-Bsi"/>
+                        <outlet property="nextButton" destination="STz-eM-1jv" id="hHC-lK-ahC"/>
+                        <outlet property="signInButton" destination="xgW-fO-Ma9" id="wwQ-3v-y3k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0HA-Aa-1YO" sceneMemberID="firstResponder"/>
             </objects>
@@ -304,7 +344,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nk8-cb-OsY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5914" y="1947"/>
+            <point key="canvasLocation" x="4802" y="2604"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="9GN-An-crj">
@@ -325,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EJT-fg-acs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5914" y="2690"/>
+            <point key="canvasLocation" x="4802" y="3347"/>
         </scene>
         <!--Settings-->
         <scene sceneID="ceE-bl-Mee">
@@ -368,7 +408,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EGF-hC-S8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5914" y="3391"/>
+            <point key="canvasLocation" x="4802" y="4048"/>
         </scene>
         <!--Files-->
         <scene sceneID="seG-1V-Xj4">
@@ -389,7 +429,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wgh-Hw-Ycf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5914" y="1228"/>
+            <point key="canvasLocation" x="4802" y="1885"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="DIG-c6-kDn">
@@ -410,7 +450,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I6F-Ft-RiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5398" y="1228"/>
+            <point key="canvasLocation" x="4286" y="1885"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="G9u-f0-ym2">
@@ -520,69 +560,6 @@
             </objects>
             <point key="canvasLocation" x="3162" y="359"/>
         </scene>
-        <!--Sign In View Controller-->
-        <scene sceneID="bJk-mj-6xQ">
-            <objects>
-                <viewController id="qyZ-hn-Vzo" customClass="SignInViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="jWz-zZ-xmK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign_in2" id="B0s-Q1-0KV">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xgW-fO-Ma9">
-                                <rect key="frame" x="246" y="20" width="74" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="STz-eM-1jv">
-                                <rect key="frame" x="240" y="523" width="80" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="onWelcomeButton:" destination="3qN-to-nbu" eventType="touchUpInside" id="es5-4a-xKU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HAh-Zu-cDS">
-                                <rect key="frame" x="70" y="196" width="181" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="mhz-vR-AwN" kind="modal" modalTransitionStyle="crossDissolve" id="MnM-eH-p0P"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="q9J-oB-fDw">
-                                <rect key="frame" x="0.0" y="21" width="109" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1215686275" green="0.47058823529999999" blue="0.70588235290000001" alpha="0.5" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="onWelcomeButton:" destination="frg-VL-7eL" eventType="touchUpInside" id="IdC-i4-0Jq"/>
-                                    <action selector="onWelcomeButton:" destination="qyZ-hn-Vzo" eventType="touchUpInside" id="iZF-TH-zx3"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Xli-qN-lw3"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a0e-rM-1o7" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3612" y="1093"/>
-        </scene>
         <!--Trouble Signing In View Controller-->
         <scene sceneID="sbL-Nf-89D">
             <objects>
@@ -614,7 +591,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wa6-su-JQl" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4048" y="1093"/>
+            <point key="canvasLocation" x="3596" y="1093"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aiM-Bk-zpA">
@@ -707,7 +684,6 @@
         <image name="settings" width="320" height="772"/>
         <image name="settings_tab" width="30" height="30"/>
         <image name="sign_in1" width="320" height="568"/>
-        <image name="sign_in2" width="320" height="568"/>
         <image name="sign_in3" width="320" height="568"/>
         <image name="terms" width="320" height="568"/>
         <image name="welcome1" width="320" height="568"/>
@@ -720,11 +696,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="rKX-Je-s3i"/>
-        <segue reference="n2P-Xa-lkV"/>
-        <segue reference="GqZ-7k-LwK"/>
-        <segue reference="cG7-WE-27l"/>
+        <segue reference="UJQ-uc-tZb"/>
         <segue reference="Zb6-9x-LBu"/>
-        <segue reference="S2a-aN-JG3"/>
+        <segue reference="n2P-Xa-lkV"/>
+        <segue reference="cG7-WE-27l"/>
+        <segue reference="GqZ-7k-LwK"/>
+        <segue reference="rKX-Je-s3i"/>
     </inferredMetricsTieBreakers>
 </document>

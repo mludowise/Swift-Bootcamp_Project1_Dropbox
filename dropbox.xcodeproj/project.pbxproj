@@ -19,8 +19,8 @@
 		E6B25A1F19E51295007AAC7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B25A1E19E51295007AAC7B /* Images.xcassets */; };
 		E6B25A2E19E51295007AAC7B /* dropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B25A2D19E51295007AAC7B /* dropboxTests.swift */; };
 		E6B25A3819E51BB8007AAC7B /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6B25A3719E51BB8007AAC7B /* Launch Screen.xib */; };
-		E6E9AFB719E762AE00C40E03 /* CreateAccountTapThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E9AFB619E762AE00C40E03 /* CreateAccountTapThroughViewController.swift */; };
 		E6E9AFB919E7687E00C40E03 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E9AFB819E7687E00C40E03 /* SettingsViewController.swift */; };
+		E6E9AFC119E7C7A400C40E03 /* FakeTypingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E9AFC019E7C7A400C40E03 /* FakeTypingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		E6B25A2C19E51295007AAC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6B25A2D19E51295007AAC7B /* dropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropboxTests.swift; sourceTree = "<group>"; };
 		E6B25A3719E51BB8007AAC7B /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "../Launch Screen.xib"; sourceTree = "<group>"; };
-		E6E9AFB619E762AE00C40E03 /* CreateAccountTapThroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountTapThroughViewController.swift; sourceTree = "<group>"; };
 		E6E9AFB819E7687E00C40E03 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E6E9AFC019E7C7A400C40E03 /* FakeTypingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeTypingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 				E61D99D019E5336A00E156F8 /* TermsOfServiceViewController.swift */,
 				E61D99CC19E525D000E156F8 /* CreateAccountRootViewController.swift */,
 				E61D99D219E53E2D00E156F8 /* CreateAccountViewController.swift */,
-				E6E9AFB619E762AE00C40E03 /* CreateAccountTapThroughViewController.swift */,
+				E6E9AFC019E7C7A400C40E03 /* FakeTypingViewController.swift */,
 				E61D99D419E53E3B00E156F8 /* SignInViewController.swift */,
 				E61D99CE19E5260D00E156F8 /* SignInRootController.swift */,
 				E6B25A1E19E51295007AAC7B /* Images.xcassets */,
@@ -237,13 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6E9AFB719E762AE00C40E03 /* CreateAccountTapThroughViewController.swift in Sources */,
 				E61D99D519E53E3B00E156F8 /* SignInViewController.swift in Sources */,
 				E61D99D719E5422600E156F8 /* TroubleSigningInViewController.swift in Sources */,
 				E6E9AFB919E7687E00C40E03 /* SettingsViewController.swift in Sources */,
 				E61D99D319E53E2D00E156F8 /* CreateAccountViewController.swift in Sources */,
 				E61D99CD19E525D000E156F8 /* CreateAccountRootViewController.swift in Sources */,
 				E61D99CF19E5260D00E156F8 /* SignInRootController.swift in Sources */,
+				E6E9AFC119E7C7A400C40E03 /* FakeTypingViewController.swift in Sources */,
 				E6B25A1A19E51295007AAC7B /* ViewController.swift in Sources */,
 				E6B25A1819E51295007AAC7B /* AppDelegate.swift in Sources */,
 				E61D99D119E5336A00E156F8 /* TermsOfServiceViewController.swift in Sources */,
