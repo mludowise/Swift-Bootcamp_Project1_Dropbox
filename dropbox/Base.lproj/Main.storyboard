@@ -8,7 +8,7 @@
         <!--Welcome 1-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" userLabel="Welcome 1" customClass="ViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" userLabel="Welcome 1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -25,6 +25,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="onSwipe:" destination="vXZ-lx-hvc" eventType="touchDragInside" id="oYX-nG-NGm"/>
                                     <segue destination="SqZ-au-hxN" kind="modal" modalTransitionStyle="crossDissolve" id="Ptg-ms-XSA"/>
                                 </connections>
                             </button>
@@ -52,7 +53,7 @@
         <!--Welcome 2-->
         <scene sceneID="u8v-UM-8Fx">
             <objects>
-                <viewController id="SqZ-au-hxN" userLabel="Welcome 2" customClass="ViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SqZ-au-hxN" userLabel="Welcome 2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pjq-mT-1TE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -84,7 +85,7 @@
         <!--Welcome 3-->
         <scene sceneID="IsY-VZ-p7i">
             <objects>
-                <viewController id="rlD-8k-VTC" userLabel="Welcome 3" customClass="ViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rlD-8k-VTC" userLabel="Welcome 3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0ol-Pu-czu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -698,9 +699,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="6lP-O1-dEY"/>
         <segue reference="w7I-2G-CX1"/>
-        <segue reference="cG7-WE-27l"/>
-        <segue reference="n2P-Xa-lkV"/>
-        <segue reference="Zb6-9x-LBu"/>
+        <segue reference="nnE-hu-Hw8"/>
         <segue reference="rKX-Je-s3i"/>
+        <segue reference="JVF-wd-LZa"/>
+        <segue reference="cCU-Or-rL0"/>
     </inferredMetricsTieBreakers>
 </document>

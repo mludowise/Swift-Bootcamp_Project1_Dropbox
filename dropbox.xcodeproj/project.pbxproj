@@ -14,7 +14,6 @@
 		E61D99D519E53E3B00E156F8 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D99D419E53E3B00E156F8 /* SignInViewController.swift */; };
 		E61D99D719E5422600E156F8 /* TroubleSigningInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D99D619E5422600E156F8 /* TroubleSigningInViewController.swift */; };
 		E6B25A1819E51295007AAC7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B25A1719E51295007AAC7B /* AppDelegate.swift */; };
-		E6B25A1A19E51295007AAC7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B25A1919E51295007AAC7B /* ViewController.swift */; };
 		E6B25A1D19E51295007AAC7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B25A1B19E51295007AAC7B /* Main.storyboard */; };
 		E6B25A1F19E51295007AAC7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B25A1E19E51295007AAC7B /* Images.xcassets */; };
 		E6B25A2E19E51295007AAC7B /* dropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B25A2D19E51295007AAC7B /* dropboxTests.swift */; };
@@ -43,7 +42,6 @@
 		E6B25A1219E51295007AAC7B /* dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B25A1619E51295007AAC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6B25A1719E51295007AAC7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6B25A1919E51295007AAC7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6B25A1C19E51295007AAC7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6B25A1E19E51295007AAC7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E6B25A2719E51295007AAC7B /* dropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				E6B25A1719E51295007AAC7B /* AppDelegate.swift */,
-				E6B25A1919E51295007AAC7B /* ViewController.swift */,
 				E6B25A1B19E51295007AAC7B /* Main.storyboard */,
 				E6E9AFB819E7687E00C40E03 /* SettingsViewController.swift */,
 				E61D99D619E5422600E156F8 /* TroubleSigningInViewController.swift */,
@@ -244,7 +241,6 @@
 				E61D99CD19E525D000E156F8 /* CreateAccountRootViewController.swift in Sources */,
 				E61D99CF19E5260D00E156F8 /* SignInRootController.swift in Sources */,
 				E6E9AFC119E7C7A400C40E03 /* FakeTypingViewController.swift in Sources */,
-				E6B25A1A19E51295007AAC7B /* ViewController.swift in Sources */,
 				E6B25A1819E51295007AAC7B /* AppDelegate.swift in Sources */,
 				E61D99D119E5336A00E156F8 /* TermsOfServiceViewController.swift in Sources */,
 			);
