@@ -1,14 +1,14 @@
 //
-//  CreateAccountViewController.swift
+//  CreateAccountTapThroughViewController.swift
 //  dropbox
 //
-//  Created by Mel Ludowise on 10/8/14.
+//  Created by Mel Ludowise on 10/9/14.
 //  Copyright (c) 2014 Mel Ludowise. All rights reserved.
 //
 
 import UIKit
 
-class CreateAccountViewController: UIViewController {
+class CreateAccountTapThroughViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,9 @@ class CreateAccountViewController: UIViewController {
     }
     
     @IBAction func onWelcomeButton(sender: AnyObject) {
-        navigationController?.popToRootViewControllerAnimated(true)
+        // Present View Controller
+        self.storyboard?.instantiateViewControllerWithIdentifier("")
+        //super.presentViewController(<#viewControllerToPresent: UIViewController#>, animated: true, completion: <#(() -> Void)?##() -> Void#>)
     }
+    
 }
