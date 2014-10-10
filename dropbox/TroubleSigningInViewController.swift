@@ -22,6 +22,6 @@ class TroubleSigningInViewController: UIViewController {
     }
     
     @IBAction func onCancelButton(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: {})
+        self.dismissViewControllerAnimated(false, completion: {})
     }
 }
