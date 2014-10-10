@@ -1,6 +1,6 @@
 # Dropbox Click-Through Prototype
 
-Description...
+Click through prototype of the iOS Dropbox App.
 
 Time Spent: 7 hours
 
