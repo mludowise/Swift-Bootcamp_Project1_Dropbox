@@ -102,7 +102,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="onSignUpButton:" destination="rlD-8k-VTC" eventType="touchUpInside" id="fnF-gN-pvR"/>
                                     <segue destination="5aU-Eb-YOl" kind="modal" animates="NO" id="JVF-wd-LZa"/>
                                 </connections>
                             </button>
@@ -114,7 +113,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="onSignInButton:" destination="rlD-8k-VTC" eventType="touchUpInside" id="tHO-Ev-f7i"/>
                                     <segue destination="2Kr-zB-Q5I" kind="modal" animates="NO" id="8Ib-wG-CFI"/>
                                 </connections>
                             </button>
@@ -700,7 +698,7 @@
         <segue reference="6lP-O1-dEY"/>
         <segue reference="w7I-2G-CX1"/>
         <segue reference="nnE-hu-Hw8"/>
-        <segue reference="rKX-Je-s3i"/>
+        <segue reference="8Ib-wG-CFI"/>
         <segue reference="JVF-wd-LZa"/>
         <segue reference="cCU-Or-rL0"/>
     </inferredMetricsTieBreakers>
